@@ -1,0 +1,323 @@
+body,h1,h2,h3,p,div,ul,li,dl,dt,dd,img,a,span,i,strong,b,em{ margin:0; padding:0;}
+li{ list-style:none;}
+a{ text-decoration:none; color:#000;}
+a:hover{ color:#000; text-decoration:underline;}
+img{ border:0 none; vertical-align:top;}
+input,button{ cursor: pointer; -webkit-appearance: none; }/*去除苹果默认的渐变色*/
+html{ font-size: 625%; }
+body{ background:#f6f8f7; font-family:"微软雅黑"; max-width: 640px; min-width: 320px; margin: 0 auto; font-size: 0.24rem; color: #000;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; display:block; height:0; visibility:hidden; clear:both;}
+/*第一个页面*/
+.index{
+	text-align: center;
+	margin-top:0.5rem ;
+}
+.index p{
+	font-size: 0.36rem;
+	margin-top: 0.3rem;	
+	font-weight: 600;
+	letter-spacing:0.1rem;
+}
+.index-bottom{
+	width: 99%;
+	height: 1rem;
+	border: 1px solid #dbdbdb;
+	position: absolute;
+	bottom: 0;
+}
+.index-left{
+	width: 20%;
+	border-right: 1px solid #dbdbdb ;
+	text-align: center;
+	float: left;
+	height: 1rem;
+	padding-top:0.5% ;
+	background: url(../img/1.jpg) no-repeat center center;
+}
+.index-center{
+	width: 28%;
+	border-right: 1px solid #dbdbdb ;
+	float: left;
+	height: 1rem;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.24rem;
+}
+.index-right{
+	width: 28%;
+	float: left;
+	height: 1rem;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.24rem;
+	border-right: 1px solid #dbdbdb ;
+}
+.index-last{
+	width: 22%;
+	float: left;
+	height: 1rem;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.24rem;
+
+}
+.jianli-l{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.jianli-l .h1{
+	width: 70%;
+	height: 0.03rem;
+	background: #000000;
+	position: absolute;
+	top: 0.5rem;
+}
+.jianli-l .p1{
+	position: absolute;
+	top: 1rem;
+	font-size: 0.4rem;
+	left: 0.3rem;
+	letter-spacing:0.2rem;
+}
+.jianli-l .p2{
+	position: absolute;
+	top: 1.7rem;
+	font-size: 0.30rem;
+	left: 0.3rem;
+}
+.jianli-r{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.jianli-l .h2{
+	width: 20%;
+	height: 0.03rem;
+	background: #000000;
+	position: absolute;
+	top: 3rem;
+	left: 0.1rem;
+}
+.jianli-l .p3{
+	width: 65%;
+	position: absolute;
+	top: 3.5rem;
+	font-size: 0.24rem;
+	left: 0.3rem;
+}
+.jianli-l .h3{
+	width: 20%;
+	height: 0.03rem;
+	background: #000000;
+	position: absolute;
+	top: 4.8rem;
+	left: 0.1rem;
+}
+.jianli-l .p4{
+	width: 100%;
+	position: absolute;
+	top:5.5rem;
+	font-size: 0.24rem;
+	left: 0.3rem;
+}
+.jianli-r .h1{
+	width: 70%;
+	height: 0.03rem;
+	background: #000000;
+	position: absolute;
+	top: 0.5rem;
+	right: 0;
+}
+.jianli-r .p1{
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+}
+.jianli-r span{
+
+	font-size: 0.1rem;
+}
+.jianli-r .p2{
+	position: absolute;
+	top: 2rem;
+	left: 1rem;
+}
+.jianli-r .p3{
+	position: absolute;
+	top: 3rem;
+	left: 1rem;
+}
+.jianli-r .p4{
+	position: absolute;
+	top: 4rem;
+	left: 1rem;
+}
+.jianli-r .p5{
+	position: absolute;
+	top: 6rem;
+	left: 1rem;
+}
+.jianli-r .p6{
+	position: absolute;
+	top: 8rem;
+	left: 1rem;
+}
+.edu{
+	position: relative;
+}
+.edu hr{
+	width: 60%;
+	height: 0.03rem;
+	background: #000000;
+}
+.edu h2{
+	position: absolute;
+	left: 1.3rem;
+	top: 0.5rem;
+}
+.edu .span1{
+	position: absolute;
+	left: 2.8rem;
+	top: 0.6rem;
+}
+.edu .span2{
+	position: absolute;
+	left: 1.3rem;
+	top: 1rem;
+}
+.edu h3{
+	position: absolute;
+	left: 1.3rem;
+	top: 1.8rem;
+}
+.edu .span3{
+	position: absolute;
+	left: 1.3rem;
+	top: 2.2rem;
+}
+.edu h4{
+	position: absolute;
+	left: 1.3rem;
+	top: 2.7rem;
+}
+.edu .bookimg{
+	position: absolute;
+	top: 2.8rem;
+	left: 2.2rem;
+}
+.edu .p1{
+	position: absolute;
+	top: 3.7rem;
+	left: 1.3rem;
+	width: 60%;
+	
+}
+.edu h5{
+	position: absolute;
+	top: 4.6rem;
+	left: 1.3rem;
+	width: 60%;
+	font-size: 0.26rem;
+}
+.edu .p2{
+	position: absolute;
+	top: 6rem;
+	left: 1.3rem;
+	width: 60%;
+	
+}
+.skill hr{
+	width: 60%;
+	height: 0.03rem;
+	background: #000000;
+}
+.skill{
+	position: relative;
+}
+.skill h2{
+	position: absolute;
+	left: 1.3rem;
+}
+.skill .span1{
+	position: absolute;
+	left: 2.8rem;
+	top: 0.3rem;
+}
+.skill .p1{
+	position: absolute;
+	top:0.7rem ;
+	left: 1.3rem;
+}
+.skill-coin{
+	position: relative;
+}
+.skill-coin ul{
+	position: absolute;
+	top: 1.2rem;
+	left: 0.8rem;
+}
+.skill-coin li{
+	float: left;
+	width: 29%;
+	margin-bottom: 0.4rem;
+	text-align: center;
+	font-size: 0.3rem;
+	font-family: "黑体";
+	font-weight: bold;
+}
+.skill-coin .p2{
+	font-size: 0.12rem;
+	margin-top: 0.1rem;
+}
+.weixin{
+	position: relative;
+}
+.weixin hr{
+	width: 60%;
+	height: 0.03rem;
+	background: #000000;
+}
+.weixin h2{
+	position: absolute;
+	left: 1.3rem;
+}
+.weixin span{
+	position: absolute;
+	left: 1.3rem;
+	top: 0.7rem;
+}
+.weixin img{
+	position: absolute;
+	left: 1.3rem;
+	top: 1.4rem;
+}
+.weixin .p1{
+	position: absolute;
+	left: 1.3rem;
+	top: 5.5rem;
+}
+.weixin h3{
+	position: absolute;
+	left: 1.3rem;
+	top: 6rem;
+}
+.weixin .img1{
+	position: absolute;
+	left: 1.3rem;
+	top: 2.2rem;
+}
+.weixin .span1{
+	position: absolute;
+	left: 2.4rem;
+	top: 2.2rem;
+	font-size: 0.6rem;
+}
+.weixin h1{
+	position: absolute;
+	left: 1.3rem;
+	top: 4.6rem;
+}
